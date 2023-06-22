@@ -68,20 +68,8 @@ table {
     margin: 0 auto;
 }
 
-.d-inline-block {
-    display: inline-block;
-}
-
 .outline {
     outline: 2px solid red;
-}
-
-.fs-0 {
-    font-size: 0;
-}
-
-.fs-20 {
-    font-size: 20px;
 }
 
 .w-400 {
@@ -106,4 +94,14 @@ table {
 
 .h-400 {
     height: 400px;
+}
+
+.float-l {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
 }
